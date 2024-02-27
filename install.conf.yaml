@@ -12,3 +12,6 @@
       path: tmux.conf
     ~/.tmux/plugins/tpm:
       path: tpm
+
+- shell:
+    - tmux source ~/.tmux.conf
