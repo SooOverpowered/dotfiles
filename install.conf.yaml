@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ["~"]
+
+- link:
+    ~/.config/nvim:
+      path: config/nvim
+    ~/.tmux.conf:
+      path: tmux.conf
+    ~/.tmux/plugins/tpm:
+      path: tpm
