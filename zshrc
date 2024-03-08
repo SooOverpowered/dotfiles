@@ -70,7 +70,8 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(colored-man-pages hacker-quotes zsh-autosuggestions zsh-syntax-highlighting direnv thefuck pyenv terraform vscode asdf fzf starship kubectl zsh-interactive-cd)
+export ZOXIDE_CMD_OVERRIDE="cd"
+plugins=(colored-man-pages hacker-quotes zsh-autosuggestions zsh-syntax-highlighting direnv thefuck pyenv terraform vscode asdf fzf starship kubectl zsh-interactive-cd zoxide)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,7 +84,6 @@ export TF_PLUGIN_CACHE_DIR="$HOME/.terraform.d/plugin-cache"
 export TF_PLUGIN_CACHE_MAY_BREAK_DEPENDENCY_LOCK_FILE=1
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 export KUBE_EDITOR="nvim"
-export ZOXIDE_CMD_OVERRIDE="cd"
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -120,7 +120,6 @@ alias kx='kubectx'
 alias kn='kubens'
 alias nvim='nvim -n'
 
-eval "$(zoxide init --cmd cd zsh)"
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/mc mc
 
