@@ -16,6 +16,12 @@
       path: tmux.conf
     ~/.tmux/plugins/tpm:
       path: tpm
+    ~/.zshrc:
+      path: zshrc
+      force: true
+    ~/.zprofile:
+      path: zprofile
+      force: true
 
 - shell:
     - tmux source ~/.tmux.conf
