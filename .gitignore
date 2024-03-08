@@ -1,0 +1,3 @@
+config/k9s/clusters/
+config/lazygit/state.yml
+*.log

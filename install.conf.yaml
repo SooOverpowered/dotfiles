@@ -8,6 +8,10 @@
 - link:
     ~/.config/nvim:
       path: config/nvim
+    ~/.config/lazygit:
+      path: config/lazygit
+    ~/.config/k9s:
+      path: config/k9s
     ~/.tmux.conf:
       path: tmux.conf
     ~/.tmux/plugins/tpm:
