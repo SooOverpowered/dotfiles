@@ -2,12 +2,9 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
-[submodule "tpm"]
-	path = tpm
-	url = https://github.com/tmux-plugins/tpm
 [submodule "dotbot-git"]
 	path = dotbot-git
 	url = https://github.com/DrDynamic/dotbot-git.git
-[submodule "dotbot-ifplatform"]
-	path = dotbot-ifplatform
-	url = https://github.com/ssbanerje/dotbot-ifplatform.git
+[submodule "dotbot-if"]
+	path = dotbot-if
+	url = https://github.com/wonderbeyond/dotbot-if.git
