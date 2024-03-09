@@ -14,8 +14,6 @@
       path: config/k9s
     ~/.tmux.conf:
       path: tmux.conf
-    ~/.tmux/plugins/tpm:
-      path: tpm
     ~/.zshrc:
       path: zshrc
       force: true
@@ -24,15 +22,17 @@
       force: true
 
 - git:
-    "~/.oh-my-zsh/custom/plugins/zsh-autosuggestions":
-      url: "https://github.com/zsh-users/zsh-autosuggestions"
-      description: "oh-my-zsh - autosuggestions"
-    "~/.oh-my-zsh/custom/plugins/hacker-quotes":
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
+      url: https://github.com/zsh-users/zsh-autosuggestions
+      description: oh-my-zsh - autosuggestions"
+    ~/.oh-my-zsh/custom/plugins/hacker-quotes:
       url: https://github.com/oldratlee/hacker-quotes
-      description: "oh-my-zsh - hacker-quotes"
-    "~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting":
+      description: oh-my-zsh - hacker-quotes"
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting:
       url: https://github.com/zsh-users/zsh-syntax-highlighting
-      description: "oh-my-zsh - zsh-syntax-highlighting"
-
+      description: oh-my-zsh - zsh-syntax-highlighting
+    ~/.tmux/plugins/tpm:
+      url: https://github.com/tmux-plugins/tpm
+      description: tmux plugin manager
 - shell:
     - tmux source ~/.tmux.conf
