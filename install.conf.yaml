@@ -20,6 +20,7 @@
     ~/.zprofile:
       path: zprofile
       force: true
+    ~/.config/bat/config:
       path: config/bat/config
     ~/.config/bat/themes:
       path: config/bat/config/themes/themes
