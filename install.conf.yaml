@@ -20,6 +20,9 @@
     ~/.zprofile:
       path: zprofile
       force: true
+      path: config/bat/config
+    ~/.config/bat/themes:
+      path: config/bat/config/themes/themes
 
 - git:
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
