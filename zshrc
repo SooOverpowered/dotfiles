@@ -123,6 +123,7 @@ alias tgp='tg plan'
 alias kx='kubectx'
 alias kn='kubens'
 alias nvim='nvim -n'
+alias cat='bat'
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/mc mc
