@@ -24,6 +24,9 @@
       path: config/bat/config
     ~/.config/bat/themes:
       path: config/bat/themes/catppuccin/themes
+    ~/.config/starship.toml:
+      path: config/starship/starship.toml
+      force: true
 
 - git:
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
