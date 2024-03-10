@@ -23,7 +23,7 @@
     ~/.config/bat/config:
       path: config/bat/config
     ~/.config/bat/themes:
-      path: config/bat/config/themes/themes
+      path: config/bat/themes/catppuccin/themes
 
 - git:
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
@@ -40,3 +40,4 @@
       description: tmux plugin manager
 - shell:
     - tmux source ~/.tmux.conf
+    - bat cache --build
