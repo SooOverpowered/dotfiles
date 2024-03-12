@@ -8,3 +8,6 @@
 [submodule "config/bat/themes/catppuccin"]
 	path = config/bat/themes/catppuccin
 	url = https://github.com/catppuccin/bat.git
+[submodule "config/warp/themes/catppuccin"]
+	path = warp/themes/catppuccin
+	url = https://github.com/catppuccin/warp.git
