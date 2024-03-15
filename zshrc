@@ -130,3 +130,9 @@ complete -o nospace -C /opt/homebrew/bin/mc mc
 
 # bun completions
 [ -s "$HOME.bun/_bun" ] && source "$HOME/.bun/_bun"
+
+tmux-window-name() {
+	($TMUX_PLUGIN_MANAGER_PATH/tmux-window-name/scripts/rename_session_windows.py &)
+}
+
+add-zsh-hook chpwd tmux-window-name
