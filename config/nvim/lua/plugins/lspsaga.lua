@@ -15,7 +15,11 @@ return {
       "nvim-tree/nvim-web-devicons",
     },
     config = function()
-      require("lspsaga").setup({})
+      require("lspsaga").setup({
+        ui = {
+          title = true,
+        },
+      })
     end,
   },
 }
