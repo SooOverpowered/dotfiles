@@ -21,9 +21,6 @@ return {
       local luasnip = require("luasnip")
       local cmp = require("cmp")
 
-      opts.completion = {
-        completeopt = "menu,preview,menuone,noselect,noinsert",
-      }
       opts.mapping = vim.tbl_extend("force", opts.mapping, {
         ["<Tab>"] = cmp.mapping(function(fallback)
           if cmp.visible() then
@@ -38,7 +35,6 @@ return {
             fallback()
           end
         end, { "i", "s" }),
-        ["<CR>"] = cmp.mapping.confirm({ select = false }),
         ["<S-Tab>"] = cmp.mapping(function(fallback)
           if cmp.visible() then
             cmp.select_prev_item()
