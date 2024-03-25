@@ -3,7 +3,10 @@ return {
     "ahmedkhalf/project.nvim",
     opts = {
       manual_mode = false,
-      patterns = { ".terraform", "*.tf" },
+      patterns = {
+        ".terraform",
+        "*.tf",
+      },
     },
   },
 }
