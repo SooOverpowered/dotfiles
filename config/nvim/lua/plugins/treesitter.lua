@@ -7,6 +7,9 @@ return {
         "astro",
         "gotmpl",
       })
+      vim.filetype.add({
+        extension = { gotmpl = "gotmpl"}
+      })
     end,
   },
 }

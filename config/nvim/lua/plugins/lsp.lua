@@ -6,6 +6,13 @@ return {
       local keys = require("lazyvim.plugins.lsp.keymaps").get()
       keys[#keys + 1] = { "K", "<cmd>Lspsaga hover_doc<cr>" }
     end,
+    opts = {
+      servers = {
+        gopls = {
+          filetypes = {"helm", "yaml"}
+        },
+      },
+    },
   },
   {
     "nvimdev/lspsaga.nvim",
