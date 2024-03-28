@@ -6,3 +6,4 @@ vim.g.root_spec = { "cwd" }
 vim.opt.swapfile = false
 vim.g.tmux_navigator_preserve_zoom = 1
 vim.g.tmux_navigator_no_wrap = 1
+vim.g.lazygit_config = false
