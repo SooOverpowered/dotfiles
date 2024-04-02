@@ -6,7 +6,6 @@ return {
         filtered_items = {
           visible = true,
         },
-        follow_current_file = { enabled = true },
         bind_to_cwd = true,
         cwd_target = {
           sidebar = "global",
@@ -15,6 +14,9 @@ return {
       },
       window = {
         position = "right",
+        mappings = {
+          ["m"] = { "move", config = { show_path = "relative" } },
+        },
       },
     },
   },
