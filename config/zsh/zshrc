@@ -79,6 +79,7 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 export XDG_CONFIG_HOME="$HOME/.config"
+export K9S_CONFIG_DIR="$HOME/.config/k9s"
 export PAAS_ROOT=~/Desktop/inhouse
 export TF_PLUGIN_CACHE_DIR="$HOME/.terraform.d/plugin-cache"
 export TF_PLUGIN_CACHE_MAY_BREAK_DEPENDENCY_LOCK_FILE=1
