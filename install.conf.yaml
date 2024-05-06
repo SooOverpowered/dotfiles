@@ -13,12 +13,12 @@
     ~/.config/k9s:
       path: config/k9s
     ~/.tmux.conf:
-      path: tmux.conf
+      path: config/tmux/tmux.conf
     ~/.zshrc:
-      path: zshrc
+      path: config/zsh/zshrc
       force: true
     ~/.zprofile:
-      path: zprofile
+      path: config/zsh/zprofile
       force: true
     ~/.config/bat/config:
       path: config/bat/config
