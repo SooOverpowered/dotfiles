@@ -2,7 +2,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      -- colorscheme = "catppuccin",
+      colorscheme = "cyberdream",
     },
   },
   {
@@ -47,6 +48,18 @@ return {
         treesitter_context = true,
         which_key = true,
       },
+    },
+  },
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      transparent = true,
+      italic_comments = true,
+      hide_fillchars = true,
+      borderless_telescope = true,
+      terminal_colors = true,
     },
   },
 }
