@@ -71,7 +71,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 export ZOXIDE_CMD_OVERRIDE="cd"
-plugins=(colored-man-pages hacker-quotes zsh-autosuggestions zsh-syntax-highlighting direnv thefuck pyenv terraform vscode asdf fzf starship kubectl zsh-interactive-cd zoxide)
+plugins=(colored-man-pages hacker-quotes zsh-autosuggestions zsh-syntax-highlighting direnv thefuck pyenv terraform vscode asdf fzf starship kubectl zsh-interactive-cd zoxide command-not-found tmux)
 
 source $ZSH/oh-my-zsh.sh
 
