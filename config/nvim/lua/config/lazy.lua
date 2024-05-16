@@ -32,7 +32,11 @@ require("lazy").setup({
     -- { import = "lazyvim.plugins.extras.lsp.none-ls" },
     { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
     -- { import = "lazyvim.plugins.extras.editor.leap" },
+    { import = "lazyvim.plugins.extras.coding.mini-surround" },
+    { import = "lazyvim.plugins.extras.ui.mini-indentscope" },
     { import = "lazyvim.plugins.extras.editor.aerial" },
+    { import = "lazyvim.plugins.extras.coding.mini-ai" },
+    { import = "lazyvim.plugins.extras.ui.treesitter-context" },
     { import = "plugins" },
   },
   defaults = {
