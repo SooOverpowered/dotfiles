@@ -36,6 +36,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.ui.mini-indentscope" },
     { import = "lazyvim.plugins.extras.editor.aerial" },
     { import = "lazyvim.plugins.extras.coding.mini-ai" },
+    { import = "lazyvim.plugins.extras.ui.treesitter-rewrite" },
     -- { import = "lazyvim.plugins.extras.ui.treesitter-context" },
     { import = "plugins" },
   },
