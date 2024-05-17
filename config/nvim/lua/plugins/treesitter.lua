@@ -8,7 +8,7 @@ return {
         "gotmpl",
       })
       vim.filetype.add({
-        extension = { gotmpl = "gotmpl"}
+        extension = { gotmpl = "gotmpl" },
       })
     end,
   },
