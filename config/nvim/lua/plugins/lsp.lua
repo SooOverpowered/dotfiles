@@ -9,7 +9,10 @@ return {
     opts = {
       servers = {
         gopls = {
-          filetypes = { "helm" },
+          filetypes = { "gotmpl" },
+        },
+        yamlls = {
+          filetypes = { "helm", "gotmpl" },
         },
       },
     },
