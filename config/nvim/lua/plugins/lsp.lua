@@ -12,7 +12,7 @@ return {
           filetypes = { "gotmpl" },
         },
         yamlls = {
-          filetypes = { "helm", "gotmpl" },
+          filetypes = { "helm", "gotmpl", "yaml" },
         },
       },
     },
