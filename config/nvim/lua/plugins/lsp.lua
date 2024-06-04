@@ -14,6 +14,9 @@ return {
         yamlls = {
           filetypes = { "helm", "gotmpl", "yaml" },
         },
+        terraformls = {
+          root_dir = require("lspconfig").util.root_pattern(".terraform", ".tf", ".git"),
+        },
       },
     },
   },

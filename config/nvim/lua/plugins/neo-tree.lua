@@ -7,6 +7,11 @@ return {
           visible = true,
         },
       },
+      bind_to_cwd = true,
+      cwd_target = {
+        sidebar = "global",
+        current = "global",
+      },
       window = {
         position = "right",
         mappings = {
