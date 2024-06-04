@@ -12,6 +12,8 @@
       path: config/lazygit
     ~/.config/k9s:
       path: config/k9s
+    ~/.config/k9s/skins:
+      path: themes/catppuccin/k9s/dist
     ~/.tmux.conf:
       path: config/tmux/tmux.conf
     ~/.zshrc:
@@ -23,9 +25,7 @@
     ~/.config/bat/config:
       path: config/bat/config
     ~/.config/bat/themes:
-      path: config/bat/themes/catppuccin/themes
-    ~/.warp/themes:
-      path: warp/themes/catppuccin/dist
+      path: themes/catppuccin/bat/themes
     ~/.config/starship.toml:
       path: config/starship/starship.toml
       force: true
