@@ -11,3 +11,6 @@
 [submodule "config/themes/cyberdream"]
 	path = themes/cyberdream
 	url = https://github.com/scottmckendry/cyberdream.nvim.git
+[submodule "themes/catppuccin/k9s"]
+	path = themes/catppuccin/k9s
+	url = https://github.com/catppuccin/k9s.git
