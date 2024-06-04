@@ -29,6 +29,8 @@
     ~/.config/starship.toml:
       path: config/starship/starship.toml
       force: true
+    ~/.tmux/plugins/tmux/themes/catppuccin_cyberdream.tmuxtheme:
+      path: themes/cyberdream/extras/tmux/cyberdream.tmuxtheme
 
 - git:
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
