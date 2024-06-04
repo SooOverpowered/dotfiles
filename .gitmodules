@@ -6,8 +6,8 @@
 	path = dotbot-git
 	url = https://github.com/DrDynamic/dotbot-git.git
 [submodule "config/bat/themes/catppuccin"]
-	path = config/bat/themes/catppuccin
+	path = themes/catppuccin/bat
 	url = https://github.com/catppuccin/bat.git
-[submodule "config/warp/themes/catppuccin"]
-	path = warp/themes/catppuccin
-	url = https://github.com/catppuccin/warp.git
+[submodule "config/themes/cyberdream"]
+	path = themes/cyberdream
+	url = https://github.com/scottmckendry/cyberdream.nvim.git
