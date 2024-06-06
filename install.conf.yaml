@@ -10,8 +10,12 @@
       path: config/nvim
     ~/.config/lazygit:
       path: config/lazygit
+
+    # K9S configs
     ~/.config/k9s:
       path: config/k9s
+    ~/.config/k9s/skins:
+      path: themes/catppuccin/k9s/dist
 
     # Tmux configs
     ~/.tmux.conf:
