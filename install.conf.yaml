@@ -12,8 +12,10 @@
       path: config/lazygit
 
     # K9S configs
-    ~/.config/k9s:
-      path: config/k9s
+    ~/.config/k9s/aliases.yaml:
+      path: config/k9s/aliases.yaml
+    ~/.config/k9s/config.yaml:
+      path: config/k9s/config.yaml
     ~/.config/k9s/skins:
       path: themes/catppuccin/k9s/dist
 
