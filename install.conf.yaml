@@ -12,23 +12,29 @@
       path: config/lazygit
     ~/.config/k9s:
       path: config/k9s
+
+    # Tmux configs
     ~/.tmux.conf:
       path: config/tmux/tmux.conf
+    ~/.tmux/plugins/tmux/themes/catppuccin_cyberdream.tmuxtheme:
+      path: themes/cyberdream/extras/tmux/cyberdream.tmuxtheme
+
     ~/.zshrc:
       path: config/zsh/zshrc
       force: true
     ~/.zprofile:
       path: config/zsh/zprofile
       force: true
+
+    # Bat configs
     ~/.config/bat/config:
       path: config/bat/config
     ~/.config/bat/themes:
       path: themes/catppuccin/bat/themes
+
     ~/.config/starship.toml:
       path: config/starship/starship.toml
       force: true
-    ~/.tmux/plugins/tmux/themes/catppuccin_cyberdream.tmuxtheme:
-      path: themes/cyberdream/extras/tmux/cyberdream.tmuxtheme
 
 - git:
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
