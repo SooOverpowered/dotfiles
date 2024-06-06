@@ -12,8 +12,6 @@
       path: config/lazygit
     ~/.config/k9s:
       path: config/k9s
-    ~/.config/k9s/skins:
-      path: themes/catppuccin/k9s/dist
     ~/.tmux.conf:
       path: config/tmux/tmux.conf
     ~/.zshrc:
