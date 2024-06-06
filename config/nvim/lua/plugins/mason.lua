@@ -7,7 +7,6 @@ return {
         "gopls",
         "tfsec",
         "prisma-language-server",
-        "astro-language-server",
       })
     end,
   },
