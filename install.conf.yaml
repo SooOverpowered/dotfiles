@@ -36,7 +36,7 @@
     ~/.config/bat/config:
       path: config/bat/config
     ~/.config/bat/themes:
-      path: themes/catppuccin/bat/themes
+      path: themes/cyberdream/extras/textmate
 
     ~/.config/starship.toml:
       path: config/starship/starship.toml
