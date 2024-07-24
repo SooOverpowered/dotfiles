@@ -29,6 +29,9 @@ return {
     },
     config = function()
       require("lspsaga").setup({
+        lightbulb = {
+          sign = false,
+        },
         ui = {
           title = true,
         },
