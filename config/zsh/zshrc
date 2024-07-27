@@ -91,6 +91,11 @@ export FZF_DEFAULT_OPTS=" \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 
+# pnpm
+export PNPM_HOME="$HOME/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
@@ -138,3 +143,4 @@ tmux-window-name() {
 }
 
 add-zsh-hook chpwd tmux-window-name
+
