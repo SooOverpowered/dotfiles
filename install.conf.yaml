@@ -6,8 +6,11 @@
 - clean: ["~"]
 
 - link:
+    # Neovim configs
     ~/.config/nvim:
       path: config/nvim
+
+    # Lazygit configs
     ~/.config/lazygit:
       path: config/lazygit
 
@@ -25,6 +28,7 @@
     ~/.tmux/plugins/tmux/themes/catppuccin_cyberdream.tmuxtheme:
       path: themes/cyberdream/extras/tmux/cyberdream.tmuxtheme
 
+    # Zsh configs
     ~/.zshrc:
       path: config/zsh/zshrc
       force: true
@@ -38,9 +42,17 @@
     ~/.config/bat/themes:
       path: themes/cyberdream/extras/textmate
 
+    # starship configs
     ~/.config/starship.toml:
       path: config/starship/starship.toml
       force: true
+
+    # wezterm configs
+    ~/.config/wezterm/wezterm.lua:
+      path: config/wezterm/wezterm.lua
+    ~/.config/wezterm/cyberdream.lua:
+      path: themes/cyberdream/extras/wezterm/cyberdream.lua
+
 
 - git:
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
