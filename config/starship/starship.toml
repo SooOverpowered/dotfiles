@@ -1,4 +1,4 @@
-palette = "catppuccin_mocha"
+palette = "cyberdream"
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
@@ -11,7 +11,7 @@ format = "$all"
 [kubernetes]
 disabled = false
 symbol = '⎈ '
-format = '[$symbol](bold blue)[$context](red)[( \($namespace\))](yellow) in '
+format = '[$symbol](bold blue)[$context](magenta)[( \($namespace\))](yellow) in '
 
 [direnv]
 disabled = false
@@ -22,30 +22,13 @@ disabled = false
 [os.symbols]
 Macos = " " 
 
-[palettes.catppuccin_mocha]
-rosewater = "#f5e0dc"
-flamingo = "#f2cdcd"
-pink = "#f5c2e7"
-mauve = "#cba6f7"
-red = "#f38ba8"
-maroon = "#eba0ac"
-peach = "#fab387"
-yellow = "#f9e2af"
-green = "#a6e3a1"
-teal = "#94e2d5"
-sky = "#89dceb"
-sapphire = "#74c7ec"
-blue = "#89b4fa"
-lavender = "#b4befe"
-text = "#cdd6f4"
-subtext1 = "#bac2de"
-subtext0 = "#a6adc8"
-overlay2 = "#9399b2"
-overlay1 = "#7f849c"
-overlay0 = "#6c7086"
-surface2 = "#585b70"
-surface1 = "#45475a"
-surface0 = "#313244"
-base = "#1e1e2e"
-mantle = "#181825"
-crust = "#11111b"
+[palettes.cyberdream]
+blue = "#5ea1ff"
+green = "#5eff6c"
+cyan = "#5ef1ff"
+red = "#ff6e5e"
+yellow = "#f1ff5e"
+magenta = "#ff5ef1"
+pink = "#ff5ea0"
+orange = "#ffbd5e"
+purple = "#bd5eff"
