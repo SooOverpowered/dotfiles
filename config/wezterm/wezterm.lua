@@ -4,11 +4,11 @@ config.colors = require("cyberdream")
 config.font = wezterm.font_with_fallback({
 	{
 		family = "FiraCode Nerd Font",
-		weight = "Bold",
+		weight = "Medium",
 	},
 	{
 		family = "FiraCode Nerd Font Mono",
-		weight = "Bold",
+		weight = "Medium",
 	},
 })
 config.anti_alias_custom_block_glyphs = true
