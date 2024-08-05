@@ -19,6 +19,16 @@ config.native_macos_fullscreen_mode = true
 config.window_padding = {
 	top = "2cell",
 }
+config.mouse_bindings = {
+	-- Cmd-click will open the link under the mouse cursor
+	{
+		event = { Up = { streak = 1, button = "Left" } },
+		mods = "SUPER",
+		action = wezterm.action.OpenLinkAtMouseCursor,
+	},
+}
+config.bypass_mouse_reporting_modifiers = "ALT"
+config.debug_key_events = true
 config.window_background_opacity = 0.3
 config.macos_window_background_blur = 40
 config.front_end = "WebGpu"
