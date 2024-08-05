@@ -25,8 +25,6 @@
     # Tmux configs
     ~/.tmux.conf:
       path: config/tmux/tmux.conf
-    ~/.tmux/plugins/tmux/themes/catppuccin_cyberdream.tmuxtheme:
-      path: themes/cyberdream/extras/tmux/cyberdream.tmuxtheme
 
     # Zsh configs
     ~/.zshrc:
@@ -54,6 +52,9 @@
       path: themes/cyberdream/extras/wezterm/cyberdream.lua
 
 - git:
+    ~/.oh-my-zsh:
+      url: https://github.com/ohmyzsh/ohmyzsh
+      description: install ohmyzsh
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
       url: https://github.com/zsh-users/zsh-autosuggestions
       description: oh-my-zsh - autosuggestions"
@@ -70,3 +71,8 @@
     - tmux source ~/.tmux.conf
     - bat cache --build
     - ~/.tmux/plugins/tpm/bin/update_plugins all
+
+# move the tmux theme link to bottom to allow initial TMP plugin install
+- link:
+  ~/.tmux/plugins/tmux/themes/catppuccin_cyberdream.tmuxtheme:
+    path: themes/cyberdream/extras/tmux/cyberdream.tmuxtheme
