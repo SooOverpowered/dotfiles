@@ -27,7 +27,7 @@ config.mouse_bindings = {
 		action = wezterm.action.OpenLinkAtMouseCursor,
 	},
 }
-config.bypass_mouse_reporting_modifiers = "ALT"
+config.bypass_mouse_reporting_modifiers = "SHIFT"
 config.debug_key_events = true
 config.window_background_opacity = 0.3
 config.macos_window_background_blur = 40
