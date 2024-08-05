@@ -71,6 +71,7 @@
     - tmux source ~/.tmux.conf
     - bat cache --build
     - ~/.tmux/plugins/tpm/bin/install_plugins all
+    - ~/.tmux/plugins/tpm/bin/update_plugins all
 
 # move the tmux theme link to bottom to allow initial TMP plugin install
 - link:
