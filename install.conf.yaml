@@ -68,7 +68,9 @@
       url: https://github.com/tmux-plugins/tpm
       description: tmux plugin manager
 - shell:
+    - tmux new-session -d -s test
     - tmux source ~/.tmux.conf
+    - tmux kill-session -t test
     - bat cache --build
     - ~/.tmux/plugins/tpm/bin/install_plugins all
     - ~/.tmux/plugins/tpm/bin/update_plugins all
