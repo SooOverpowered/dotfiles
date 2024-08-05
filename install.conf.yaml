@@ -75,7 +75,7 @@
     - ~/.tmux/plugins/tpm/bin/install_plugins all
     - ~/.tmux/plugins/tpm/bin/update_plugins all
 
-# move the tmux theme link to bottom to allow initial TMP plugin install
+# move the tmux theme link to bottom to allow initial TPM plugin install
 - link:
   ~/.tmux/plugins/tmux/themes/catppuccin_cyberdream.tmuxtheme:
     path: themes/cyberdream/extras/tmux/cyberdream.tmuxtheme
