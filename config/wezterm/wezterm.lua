@@ -27,6 +27,13 @@ config.mouse_bindings = {
 		action = wezterm.action.OpenLinkAtMouseCursor,
 	},
 }
+config.keys = {
+	{ mods = "OPT", key = "LeftArrow", action = wezterm.action.SendKey({ mods = "ALT", key = "b" }) },
+	{ mods = "OPT", key = "RightArrow", action = wezterm.action.SendKey({ mods = "ALT", key = "f" }) },
+	{ mods = "CMD", key = "LeftArrow", action = wezterm.action.SendKey({ mods = "CTRL", key = "a" }) },
+	{ mods = "CMD", key = "RightArrow", action = wezterm.action.SendKey({ mods = "CTRL", key = "e" }) },
+	{ mods = "CMD", key = "Backspace", action = wezterm.action.SendKey({ mods = "CTRL", key = "u" }) },
+}
 config.bypass_mouse_reporting_modifiers = "SHIFT"
 config.debug_key_events = true
 config.window_background_opacity = 0.3
