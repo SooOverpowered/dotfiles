@@ -15,7 +15,7 @@ config.anti_alias_custom_block_glyphs = true
 config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = true
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
-config.native_macos_fullscreen_mode = true
+-- config.native_macos_fullscreen_mode = true
 config.window_padding = {
 	top = "2cell",
 }
@@ -36,8 +36,8 @@ config.keys = {
 }
 config.bypass_mouse_reporting_modifiers = "SHIFT"
 config.debug_key_events = true
-config.window_background_opacity = 0.3
-config.macos_window_background_blur = 40
+config.window_background_opacity = 0.5
+config.macos_window_background_blur = 50
 config.front_end = "WebGpu"
 config.audible_bell = "SystemBeep"
 return config
