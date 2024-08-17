@@ -6,6 +6,7 @@ return {
     },
     ---@param opts cmp.ConfigSchema
     opts = function(_, opts)
+      opts.completion.autocomplete = false
       local has_words_before = function()
         unpack = unpack or table.unpack
         local line, col = unpack(vim.api.nvim_win_get_cursor(0))
@@ -13,6 +14,37 @@ return {
       end
 
       local cmp = require("cmp")
+
+      opts.window = {
+        completion = {
+          border = {
+            { "󱐋", "WarningMsg" },
+            { "─", "Comment" },
+            { "╮", "Comment" },
+            { "│", "Comment" },
+            { "╯", "Comment" },
+            { "─", "Comment" },
+            { "╰", "Comment" },
+            { "│", "Comment" },
+          },
+          scrollbar = false,
+          winblend = 0,
+        },
+        documentation = {
+          border = {
+            { "󰙎", "DiagnosticHint" },
+            { "─", "Comment" },
+            { "╮", "Comment" },
+            { "│", "Comment" },
+            { "╯", "Comment" },
+            { "─", "Comment" },
+            { "╰", "Comment" },
+            { "│", "Comment" },
+          },
+          scrollbar = false,
+          winblend = 0,
+        },
+      }
 
       opts.mapping = vim.tbl_extend("force", opts.mapping, {
         ["<Tab>"] = cmp.mapping(function(fallback)
