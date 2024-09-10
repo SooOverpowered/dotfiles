@@ -6,7 +6,6 @@ return {
         "helm-ls",
         "gopls",
         "tfsec",
-        "prisma-language-server",
       })
     end,
   },
