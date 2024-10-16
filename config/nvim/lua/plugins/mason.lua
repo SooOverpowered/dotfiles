@@ -6,6 +6,7 @@ return {
         "helm-ls",
         "gopls",
         "tfsec",
+        "harper-ls",
       })
     end,
   },
