@@ -51,6 +51,10 @@
     ~/.config/wezterm/cyberdream.lua:
       path: themes/cyberdream/extras/wezterm/cyberdream.lua
 
+    # ghostty configs
+    ~/.config/ghostty/config:
+      path: config/ghostty/config
+
 - git:
     ~/.oh-my-zsh:
       url: https://github.com/ohmyzsh/ohmyzsh
@@ -79,3 +83,5 @@
 - link:
     ~/.tmux/plugins/tmux/themes/catppuccin_cyberdream.tmuxtheme:
       path: themes/cyberdream/extras/tmux/cyberdream.tmuxtheme
+    ~/.config/ghostty/themes/cyberdream:
+      path: themes/cyberdream/extras/ghostty/cyberdream

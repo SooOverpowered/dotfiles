@@ -1,0 +1,17 @@
+auto-update = download
+font-family = FiraCode Nerd Font Mono Med
+theme = cyberdream
+background-opacity = 0.5
+background-blur = 50
+macos-titlebar-style = tabs
+macos-titlebar-proxy-icon = hidden
+macos-icon = blueprint
+shell-integration-features = sudo,no-cursor,title
+cursor-style = block
+cursor-style-blink = true
+window-padding-x = 20
+window-padding-y = 20
+macos-auto-secure-input = true
+macos-secure-input-indication = true
+term = xterm-256color
+link-url = true
