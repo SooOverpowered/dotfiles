@@ -15,3 +15,5 @@ macos-auto-secure-input = true
 macos-secure-input-indication = true
 term = xterm-256color
 link-url = true
+mouse-scroll-multiplier = 0.5
+macos-option-as-alt = true
