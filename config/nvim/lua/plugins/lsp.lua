@@ -17,6 +17,7 @@ return {
         terraformls = {
           root_dir = require("lspconfig").util.root_pattern(".terraform", ".tf", ".git"),
         },
+        harper_ls = {},
       },
     },
   },
