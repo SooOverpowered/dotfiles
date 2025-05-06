@@ -7,6 +7,10 @@ return {
         "gopls",
         "tfsec",
         "harper-ls",
+        "yamllint",
+        "snyk",
+        "hclfmt",
+        "yamlfmt",
       })
     end,
   },
