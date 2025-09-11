@@ -8,12 +8,6 @@ return {
     end,
     opts = {
       servers = {
-        gopls = {
-          filetypes = { "gotmpl" },
-        },
-        yamlls = {
-          filetypes = { "helm", "gotmpl", "yaml" },
-        },
         terraformls = {
           root_dir = require("lspconfig").util.root_pattern(".terraform", ".tf", ".git"),
         },
