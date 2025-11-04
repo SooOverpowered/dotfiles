@@ -2,12 +2,13 @@ return {
   -- LSP keymaps
   {
     "neovim/nvim-lspconfig",
-    init = function()
-      local keys = require("lazyvim.plugins.lsp.keymaps").get()
-      keys[#keys + 1] = { "K", "<cmd>Lspsaga hover_doc<cr>" }
-    end,
     opts = {
       servers = {
+        ["*"] = {
+          keys = {
+            { "K", "<cmd>Lspsaga hover_doc<cr>" },
+          },
+        },
         terraformls = {
           root_dir = require("lspconfig").util.root_pattern(".terraform", ".tf", ".git"),
         },
