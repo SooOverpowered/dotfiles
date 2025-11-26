@@ -9,3 +9,8 @@ vim.g.tmux_navigator_no_wrap = 1
 vim.lsp.set_log_level("off")
 vim.g.lazyvim_picker = "snacks"
 vim.opt.clipboard = "unnamedplus"
+vim.filetype.add({
+  pattern = {
+    ["values.*%.yaml.gotmpl"] = "helm",
+  },
+})
