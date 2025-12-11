@@ -13,4 +13,9 @@ vim.filetype.add({
   pattern = {
     ["values.*%.yaml.gotmpl"] = "helm",
   },
+  extension = {
+    gotmpl = "gotmpl",
+    tf = "terraform",
+  },
 })
+vim.g.ai_cmp = true
