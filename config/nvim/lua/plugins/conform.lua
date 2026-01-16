@@ -6,7 +6,6 @@ return {
     cmd = "ConformInfo",
     opts = function(_, opts)
       opts.formatters_by_ft.yaml = { "yamlfmt" }
-      opts.formatters_by_ft.helm = { "prettier" }
     end,
   },
 }
