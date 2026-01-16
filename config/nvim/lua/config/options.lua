@@ -14,7 +14,6 @@ vim.filetype.add({
     ["values.*%.yaml.gotmpl"] = "helm",
   },
   extension = {
-    gotmpl = "gotmpl",
     tf = "terraform",
   },
 })

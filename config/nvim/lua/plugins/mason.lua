@@ -12,6 +12,7 @@ return {
         "yamllint",
         "snyk",
         "hclfmt",
+        "yamlfmt",
         "trivy",
         "terraform",
         "bash-language-server",
