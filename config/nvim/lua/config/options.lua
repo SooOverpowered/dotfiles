@@ -17,4 +17,5 @@ vim.filetype.add({
     tf = "terraform",
   },
 })
-vim.g.ai_cmp = false
+vim.g.ai_cmp = true
+vim.g.sidekick_nes = false
