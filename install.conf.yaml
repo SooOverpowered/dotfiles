@@ -2,30 +2,26 @@
     link:
       relink: true
       create: true
-
 - clean: ["~"]
-
 - link:
     # Neovim configs
     ~/.config/nvim:
       path: config/nvim
-
     # Lazygit configs
     ~/.config/lazygit:
       path: config/lazygit
-
     # K9S configs
     ~/.config/k9s/aliases.yaml:
       path: config/k9s/aliases.yaml
     ~/.config/k9s/config.yaml:
       path: config/k9s/config.yaml
+    ~/.config/k9s/plugins:
+      path: config/k9s/plugins
     ~/.config/k9s/skins:
       path: themes/catppuccin/k9s/dist
-
     # Tmux configs
     ~/.tmux.conf:
       path: config/tmux/tmux.conf
-
     # Zsh configs
     ~/.zshrc:
       path: config/zsh/zshrc
@@ -33,28 +29,23 @@
     ~/.zprofile:
       path: config/zsh/zprofile
       force: true
-
     # Bat configs
     ~/.config/bat/config:
       path: config/bat/config
     ~/.config/bat/themes:
       path: themes/cyberdream/extras/textmate
-
     # starship configs
     ~/.config/starship.toml:
       path: config/starship/starship.toml
       force: true
-
     # wezterm configs
     ~/.config/wezterm/wezterm.lua:
       path: config/wezterm/wezterm.lua
     ~/.config/wezterm/cyberdream.lua:
       path: themes/cyberdream/extras/wezterm/cyberdream.lua
-
     # ghostty configs
     ~/.config/ghostty/config:
       path: config/ghostty/config
-
 - git:
     ~/.oh-my-zsh:
       url: https://github.com/ohmyzsh/ohmyzsh
@@ -78,7 +69,6 @@
     - bat cache --build
     - ~/.tmux/plugins/tpm/bin/install_plugins all
     - ~/.tmux/plugins/tpm/bin/update_plugins all
-
 # move the tmux theme link to bottom to allow initial TPM plugin install
 - link:
     ~/.tmux/plugins/tmux/themes/catppuccin_cyberdream.tmuxtheme:
