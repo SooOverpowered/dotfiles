@@ -1,0 +1,22 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "lsp": true,
+  "mcp": {
+    "terraform": {
+      "enabled": true,
+      "type": "local",
+      "command": [
+        "docker",
+        "run",
+        "-i",
+        "-rm",
+        "hashicorp/terraform-mcp-server:0.5.2"
+      ]
+    },
+    "helm": {
+      "type": "remote",
+      "url": "https://mcp-helm.zekker.dev/mcp",
+      "enabled": true
+    }
+  }
+}

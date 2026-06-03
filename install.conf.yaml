@@ -46,6 +46,8 @@
     # ghostty configs
     ~/.config/ghostty/config:
       path: config/ghostty/config
+    ~/.config/opencode/opencode.json:
+      path: config/opencode/opencode.json
 - git:
     ~/.oh-my-zsh:
       url: https://github.com/ohmyzsh/ohmyzsh
