@@ -9,7 +9,7 @@
         "docker",
         "run",
         "-i",
-        "-rm",
+        "--rm",
         "hashicorp/terraform-mcp-server:0.5.2"
       ]
     },
